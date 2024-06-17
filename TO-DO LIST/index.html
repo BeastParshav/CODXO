@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income and Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Income and Expense Tracker</h1>
+        <div class="form-container">
+            <div class="income-form">
+                <h2>Add Income</h2>
+                <input type="text" id="incomeDescription" placeholder="Income Description">
+                <input type="number" id="incomeAmount" placeholder="Income Amount">
+                <button id="addIncomeBtn">Add Income</button>
+            </div>
+            <div class="expense-form">
+                <h2>Add Expense</h2>
+                <input type="text" id="description" placeholder="Expense Description">
+                <input type="number" id="amount" placeholder="Expense Amount">
+                <button id="addExpenseBtn">Add Expense</button>
+            </div>
+        </div>
+        <div class="history">
+            <h2>History</h2>
+            <div class="history-table">
+                <div class="income-column">
+                    <h3>Income</h3>
+                    <ul id="incomeList"></ul>
+                </div>
+                <div class="expense-column">
+                    <h3>Expenses</h3>
+                    <ul id="expenseList"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <h2>Total Income: ₹<span id="totalIncome">0</span></h2>
+            <h2>Total Expense: ₹<span id="totalExpense">0</span></h2>
+            <h2>Net Amount: ₹<span id="netAmount">0</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
