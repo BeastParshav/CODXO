@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#74ebd5,#acb6e5);
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient(to right,#667db6,#0082c8,#0082c8,#667db6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 i {
+    margin-right: 10px;
+}
+
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-section input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px; 
+}
+
+.input-section button {
+    padding: 8px 15px;
+    background-color: #48b1bf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px; 
+}
+
+.section {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    font-size: 20px; 
+}
+
+.delete-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    margin-left: 5px;
+    font-size: 20px; 
+}
+
+.checkbox {
+    margin-right: 8px;
+    transform: scale(1.5); 
+}
