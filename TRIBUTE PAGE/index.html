@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icon.jpeg">
+    <title>Tribute to Swami Vivekananda</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: #ff7043;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+
+        .section {
+            background: #fff;
+            margin: 2em 0;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #ff7043;
+            border-bottom: 2px solid #ff7043;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+            font-size: 2em;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro img {
+            max-width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            margin: 1em 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5em;
+        }
+
+        .quotes blockquote {
+            font-style: italic;
+            margin: 1em 0;
+            padding: 1em;
+            border-left: 4px solid #ff7043;
+            background: #e0f2f1;
+            border-radius: 8px;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1.5em 0;
+            margin-top: 2em;
+        }
+
+        .more-info {
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        .more-info a {
+            text-decoration: none;
+            color: #ff7043;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .more-info a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .container > div {
+            flex: 1 1 calc(50% - 1em);
+            margin: 0.5em;
+            padding: 1em;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container > div img {
+            max-width: 500px;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+
+        .container > div p {
+            text-align: justify;
+        }
+
+        @media (max-width: 768px) {
+            .container > div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tribute to Swami Vivekananda</h1>
+    </header>
+
+    <nav>
+        <a href="#intro">Intro</a>
+        <a href="#life">Early Life</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#teachings">Teachings</a>
+        <a href="#quotes">Quotes</a>
+    </nav>
+
+    <main>
+        <section id="intro" class="section intro">
+            <img src="Images/photo.png" alt="Swami Vivekananda">
+            <p>Swami Vivekananda, born Narendra Nath Datta, was a key figure in the introduction of Indian philosophies of Vedanta and Yoga to the Western world. He is also credited with raising interfaith awareness, bringing Hinduism to the status of a major world religion in the late 19th century.</p>
+        </section>
+
+        <section id="life" class="section">
+            <h2>Early Life</h2>
+            <div class="container">
+                <div>
+                    <img src="Images/early-life.jpeg" alt="Early Life of Swami Vivekananda">
+                    <p>Born on January 12, 1863, in Kolkata, Swami Vivekananda showed an inclination towards spirituality from a young age. He was deeply influenced by his guru, Ramakrishna, from whom he learnt that all living beings were an embodiment of the divine self.</p>
+                </div>
+                <div>
+                    <img src="Images/early-speaker.jpg" alt="Swami Vivekananda as a Speaker">
+                    <p>He was known for his prodigious memory and his ability to grasp complex philosophical concepts quickly. These qualities, along with his oratory skills, made him a popular speaker even at a young age.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2>Major Achievements</h2>
+            <ul>
+                <li>Represented India and Hinduism at the Parliament of the World's Religions in Chicago in 1893.</li>
+                <li>Founded the Ramakrishna Mission in 1897, an organization dedicated to social service and education.</li>
+                <li>Inspired many young Indians to participate in the freedom struggle against British rule.</li>
+                <li>Published numerous books on Vedanta and Yoga, which have inspired millions worldwide.</li>
+            </ul>
+        </section>
+
+        <section id="teachings" class="section">
+            <h2>Teachings and Philosophy</h2>
+            <div class="grid-container">
+                <div>
+                    <p>Swami Vivekananda's teachings focused on the ideals of self-realization and service to humanity. He emphasized the potential of the human soul and the importance of serving others as a path to spiritual growth. His message was one of strength, love, and compassion.</p>
+                </div>
+                <div>
+                    <p>He believed in the unity of all religions and advocated for religious tolerance and mutual respect. His famous quote, "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far," reflects his deep understanding of the power of the mind.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="quotes" class="section quotes">
+            <h2>Famous Quotes</h2>
+            <blockquote>"Arise, awake, and stop not till the goal is reached."</blockquote>
+            <blockquote>"You have to grow from the inside out. None can teach you, none can make you spiritual. There is no other teacher but your own soul."</blockquote>
+            <blockquote>"Take risks in your life. If you win, you can lead. If you lose, you can guide."</blockquote>
+            <blockquote>"We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far."</blockquote>
+        </section>
+
+        <div class="more-info">
+            <p>For more information, visit the <a href="https://en.wikipedia.org/wiki/Swami_Vivekananda" target="_blank">Wikipedia page</a> on Swami Vivekananda.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tribute to Swami Vivekananda</p>
+    </footer>
+</body>
+</html>
